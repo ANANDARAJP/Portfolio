@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+ <!-- ================= NAVBAR ================= -->
+<nav class="menu" role="navigation">
+  <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button> <!-- Hamburger -->
+  
+  <a href="#" class="link" data-target="home">
+    <span class="link-icon">home</span>
+    <span class="link-title">HOME</span>
+  </a>
+  <a href="#" class="link" data-target="about">
+    <span class="link-icon">person</span>
+    <span class="link-title">ABOUT</span>
+  </a>
+  <a href="#" class="link" data-target="skills">
+    <span class="link-icon">book</span>
+    <span class="link-title">SKILLS</span>
+  </a>
+  <a href="#" class="link" data-target="projects">
+    <span class="link-icon">files</span>
+    <span class="link-title">PROJECTS</span>
+  </a>
+  <a href="#" class="link" data-target="experience">
+    <span class="link-icon">work</span>
+    <span class="link-title">EXPERIENCE</span>
+  </a>
+  <a href="#" class="link" data-target="contact">
+    <span class="link-icon">phone</span>
+    <span class="link-title">CONTACT</span>
+  </a>
+</nav>
+
+
+  <!-- ================= CONTENT ================= -->
+  <main class="content">
+
+    <!-- ========== HOME SECTION ========== -->
+    <section id="home" class="home section active">
+      <h1 class="zoom-left">Hi, I'm <span class="highlight">Anandaraj P</span></h1>
+      <p class="role zoom-right">Java Developer</p>
+      <p class="desc zoom-left">
+        Java Developer with strong problem-solving skills and deep understanding of software architecture.
+      </p>
+
+      <!-- Skills -->
+      <div class="skills zoom-right">
+        <span class="pill">Java</span>
+        <span class="pill">Spring-MVC</span>
+        <span class="pill">Spring Boot</span>
+        <span class="pill">MySQL</span>
+        <span class="pill">Oracle</span>
+        <span class="pill">Git</span>
+      </div>
+
+      <!-- Info Row -->
+      <div class="info-row zoom-left">
+        <span>Bangalore, Karnataka</span>
+        <span>+91 9944196247</span>
+      </div>
+
+      <!-- Profile Image -->
+      <div class="img-card zoom-right">
+        <img src="./assects/Anandth.jpg" alt="Profile Image" />
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="section">
+      <div class="about-section">
+        <div class="about-content">
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <p class="description animate-right">
+            Creative and detail-oriented frontend developer and UI designer passionate
+            about building responsive, accessible, and user-centric web interfaces.
+            Strong communicator skilled in collaborative problem-solving and delivering
+            pixel-perfect UI with optimal performance.
+          </p>
+          <br>
+
+          <div class="img-card animate-zoom">
+            <img src="./assects/Anandth.jpg" alt="Profile Image" />
+          </div>
+
+          <!-- Education & Certifications -->
+          <section id="education" class="edu-section">
+            <h2 class="section-title animate-left">🎓 <span class="highlight">Education</span></h2>
+            <p class="section-desc animate-right">My academic journey and qualifications.</p>
+
+            <div class="edu-container">
+              <div class="edu-card card animate-left">
+                <div class="edu-icon">🎓</div>
+                <div class="edu-content">
+                  <h3>B.E. – Electronics and Communication Engineering</h3>
+                  <p class="sub">SNS College of Technology, Coimbatore</p>
+                  <p class="meta">2021 – 2025</p>
+                  <p class="highlight">CGPA: 8.63 / 10</p>
+                </div>
+              </div>
+
+              <div class="edu-card card animate-right">
+                <div class="edu-icon">🏫</div>
+                <div class="edu-content">
+                  <h3>Higher Secondary Education (HSC)</h3>
+                  <p class="sub">Kamarajar Matric. Hr. Sec. School</p>
+                  <p class="meta">2020 – 2021</p>
+                  <p class="highlight">Percentage: 74.6%</p>
+                </div>
+              </div>
+
+              <div class="edu-card card animate-left">
+                <div class="edu-icon">📘</div>
+                <div class="edu-content">
+                  <h3>Primary School</h3>
+                  <p class="sub">Kamarajar Matriculation School</p>
+                  <p class="meta">2018 – 2019</p>
+                  <p class="highlight">Percentage: 61.5%</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Certifications -->
+            <h2 class="section-title top-space animate-left">🏅 <span class="highlight">Certification</span></h2>
+            <p class="section-desc animate-right">Courses & credentials I have completed.</p>
+
+            <div class="edu-container">
+              <div class="edu-card card animate-left">
+                <div class="edu-icon">📜</div>
+                <div class="edu-content">
+                  <h3>Industry 4.0 & Industrial IoT</h3>
+                  <p class="sub">NPTEL (Jul – Oct 2023)</p>
+                  <p class="highlight">Grade: 54%</p>
+                </div>
+              </div>
+
+              <div class="edu-card card animate-right">
+                <div class="edu-icon">💻</div>
+                <div class="edu-content">
+                  <h3>Java Full Stack Development</h3>
+                  <p class="sub">J-Spider</p>
+                  <p class="meta">Jun 2025 – Nov 2025</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="section skills-section">
+      <h2 class="section-title"><span class="highlight">Skills</span></h2>
+      <p class="section-desc">A blend of technical expertise, creative tools, and strong interpersonal abilities.</p>
+
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-block card">
+          <h3>Front-End Development</h3>
+          <div class="skill-row">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">HTML5</div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">CSS3</div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">JavaScript</div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">React</div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-block card">
+          <h3>Back-End Development</h3>
+          <div class="skill-row">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">Java</div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">Spring</div>
+            <div class="skill-item"><img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png">JDBC</div>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-block card">
+          <h3>Database</h3>
+          <div class="skill-row">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">MySQL</div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg">Oracle</div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-block card">
+          <h3>Tools</h3>
+          <div class="skill-row">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">Git & GitHub</div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">VS Code</div>
+            <div class="skill-item"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">Postman</div>
+            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Canva_Logo.png/600px-Canva_Logo.png">Canva</div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-block card">
+          <h3>Soft Skills</h3>
+          <div class="skill-row">
+            <div class="skill-item">🤝 Team Collaboration</div>
+            <div class="skill-item">🧠 Problem Solving</div>
+            <div class="skill-item">💡 Creativity</div>
+            <div class="skill-item">🔄 Adaptability</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+      <p class="section-desc">An illustration of my full-stack works.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./assects/Inventory Project.png" alt="Inventory Project">
+          <div class="project-content">
+            <div class="project-badges">
+              <span class="badge">Full Stack</span>
+              <span class="badge status">Completed</span>
+            </div>
+            <h3>Inventory Management</h3>
+            <p class="project-description">
+              AI improves inventory accuracy by predicting stock needs and reducing manual errors.
+            </p>
+            <h4>Key Features</h4>
+            <ul class="features">
+              <li>Tracking faster</li>
+              <li>Preventing overstocking</li>
+              <li>Avoid stock mistakes</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Python</span>
+            </div>
+            <a href="https://anandarajp.github.io/Inventary-management/" target="_blank" class="demo-btn">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+      <p class="section-desc">My journey through internships and real-world projects.</p>
+
+      <div class="exp-grid">
+        <div class="exp-card">
+          <h3 class="exp-title">Full Stack Development Trainee</h3>
+          <p class="exp-company">J-Spider</p>
+          <ul class="exp-list">
+            <li>Gaining hands-on experience in SQL, database creation, optimization, and Java-based web components.</li>
+            <li>Learned core Java through practical coding sessions and assignments.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="exp-tag">HTML5</span>
+            <span class="exp-tag">CSS3</span>
+            <span class="exp-tag">JavaScript</span>
+            <span class="exp-tag">Java</span>
+            <span class="exp-tag">Spring</span>
+            <span class="exp-tag">MySQL</span>
+            <span class="exp-tag">Oracle</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="form-box">
+          <h2>Contact Me</h2>
+          <form>
+            <div class="row">
+              <div class="input-group">
+                <label>First Name*</label>
+                <input type="text" placeholder="First Name">
+              </div>
+              <div class="input-group">
+                <label>Last Name*</label>
+                <input type="text" placeholder="Last Name">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-group">
+                <label>Email*</label>
+                <input type="email" placeholder="Your Email">
+              </div>
+              <div class="input-group">
+                <label>Phone*</label>
+                <input type="text" placeholder="Phone Number">
+              </div>
+            </div>
+
+            <div class="input-group full">
+              <label>Message*</label>
+              <textarea placeholder="Enter your message"></textarea>
+            </div>
+            <br>
+            <button class="send-btn">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Social & Contact Info -->
+        <div class="info-boxes">
+          <div class="icon-card">
+            <h3>Social Links</h3>
+            <div class="social-cards">
+              <a href="https://wa.me/9944196247" target="_blank" class="social-card whatsapp">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/p-anandaraj" target="_blank" class="social-card linkedin">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/anandth_rp?igsh=MWcwYnB5aGozbWtseA==" target="_blank" class="social-card instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="icon-card">
+            <h3>Contact Info</h3>
+            <div class="social-cards">
+              <a href="mailto:anandth107@email.com" class="social-card email">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+              <a href="tel:+919944196247" class="social-card phone">
+                <i class="bi bi-telephone-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div id="theme-toggle" style="cursor:pointer;">
+      <span class="material-symbols-rounded" id="themeIcon">dark_mode</span>
+    </div>
+    &copy; 2025 Anandaraj P. All Rights Reserved.
+  </footer>
+
+  <!-- JS -->
+  <script src="./work.js"></script>
+</body>
+</html>
